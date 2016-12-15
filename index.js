@@ -1,4 +1,4 @@
-const objToParams = (obj) => {
+const objToParams = function (obj) {
   let list = [];
   for (var key in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
@@ -8,7 +8,7 @@ const objToParams = (obj) => {
   return list.join('&');
 }
 
-const zAJAX = (url, datas, func) => {
+const zAJAX = function (url, datas, func) {
   let xmlhttp = new XMLHttpRequest();
   xmlhttp.open("POST", url, true);
   xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
