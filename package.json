@@ -1,6 +1,6 @@
 {
   "name": "z-ajax",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "AJAX FUNCTION FOR MYSELF",
   "main": "index.js",
   "scripts": {
